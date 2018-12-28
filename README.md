@@ -15,20 +15,24 @@ representative or hiring no representative at all (appearing as a pro se claiman
 
 ### Grouping on the basis of claimant Representation
 
-a. Pro Se: grouping all instances when the claimant name matched the claimant representative and there was only one representative.
-b. One non-attorney cases: This group of non-attorney representatives was comprised of single registered NARs, self-styled claimant advocates, and a few other unidentified types of representatives who could be friends, family members,or corporate representatives.
-c. One attorney cases: Cases with a single attorney who doesn't belong to NARs.
-d. Multiple Attorney cases: Cases with more than one claimant representative
+1. Pro Se: grouping all instances when the claimant name matched the claimant representative and there was only one representative.
+2. One non-attorney cases: This group of non-attorney representatives was comprised of single registered NARs, self-styled claimant advocates, and a few other unidentified types of representatives who could be friends, family members,or corporate representatives.
+3. One attorney cases: Cases with a single attorney who doesn't belong to NARs.
+4. Multiple Attorney cases: Cases with more than one claimant representative
 
 ### Binning into Claims
 
 The various claims were binned into 16 comprehensive types to aid further analysis.
 
+### Additional Features
+
+Several other features such as Length of Case, Region of the case, type of claimant were also mined from the text corpus and added to the research data set.
+
 ## CART analysis results
 
-1. Regression analysis on the data showed that while there was a significant difference between the likelihood of winning as a pro se claimant and as a claimant with a representative, there was not much distinction between the win rate of the attorney representative and the non-attorney representatives.
+1. Regression analysis on the data showed that while there was a significant difference between the likelihood of winning as a pro se claimant and as a claimant with a representative, there was not much distinction between the win rate of the attorney representative and the non-attorney representatives. The pro se group fared much worse compared to the non-attorney representative or attorney representative groups. 
 
-2. Statistical tests such as Fischer test also stressed that there exists a significant difference between the Pro se and One Attorney Cases. While there was not significant difference between the one and many case groups based on the case outcomes. The pro se group fared much worse compared to the non-attorney representative or attorney representative groups. 
+2. Statistical tests such as Fischer test also stressed that there exists a significant difference between the Pro se and One Attorney Cases. While there was not significant difference between the one and many case groups based on the case outcomes. 
 
 3. Regions also had a significant impact on the outcome of the cases. Using the Midwest as the baseline for measurement, we found that claimants were more successful in the West and would be most successful in the Northeast, all other factors the same. The South did not yield a statistically significant difference for the purpose of our analysis.
 
